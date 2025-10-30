@@ -8,7 +8,9 @@ The goal is to enable employees to manage their vacations easily without the nee
 ### Functional Requirements
 
 ### Non-Functional Requirements
-
+- The system must be easy to use.
+- The system must provide a fast response time to user actions.
+  
 ### Constraints
 
 
