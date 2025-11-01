@@ -24,3 +24,10 @@ The goal is to enable employees to manage their vacations easily without the nee
 
 
 ---
+
+## 3️⃣ Actors
+-Employee
+-Manager
+-HR Staff
+
+
