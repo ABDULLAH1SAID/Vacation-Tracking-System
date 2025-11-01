@@ -42,6 +42,7 @@ given employee’s vacation request summary
 - Employee
 - Manager
 - HR Staff
+- System admin
 
 ## 4️⃣ Use Case
 🧭 Use Case: Manage Time
