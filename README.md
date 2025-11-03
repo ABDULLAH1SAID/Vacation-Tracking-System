@@ -89,7 +89,7 @@ approved or rejected.
 
 ## 🔄 **Sequence Diagram: Employee
 
-[Sequence Diagram - Employee](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/SequenceDigram.png?raw=true)
+![Sequence Diagram - Employee](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/SequenceDigram.png?raw=true)
 
 
 
