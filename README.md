@@ -82,7 +82,25 @@ approved or rejected.
 
 ---
 ## 📊 **Flowchart**
+
 ![Flowchart - Manage Time](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/FlowchartDiagram.jpg?raw=true)
+
+
+
+## 🔄 **Sequence Diagram: Employee**
+
+[Sequence Diagram - Employee](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/FlowchartDiagram.jpg?raw=true)
+
+
+
+## 🔄 **Sequence Diagram: Manager**
+
+![Sequence Diagram - Manager](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/FlowchartDiagram.jpg?raw=true)
+
+---
+
+
+
 
 
 
