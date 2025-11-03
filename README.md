@@ -83,7 +83,7 @@ approved or rejected.
 ---
 ## 📊 **Flowchart**
 ```markdown
-![Flowchart - Manage Time]([https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/FlowchartDiagram.jpg)])
+![Flowchart - Manage Time](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/FlowchartDiagram.jpg?raw=true)
 
 
 
