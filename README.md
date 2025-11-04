@@ -127,6 +127,41 @@ Start
   END IF
 End
 ```
+- manager response
+```pseudocode
+Start
+  IF manager.ClickEmail OR manager.Login("VTSHOMEPAGE") THEN
+      Display("VTS Home Page")
+
+      VTS.DisplayManagerRequests(manager)
+      VTS.DisplaySubordinatePendingRequests(manager)
+
+      FOR each request IN SubordinatePendingRequests DO
+          PROMPT "Approve or Deny the request?"
+          INPUT decision 
+
+          IF decision = "Approve" THEN
+              ApproveRequest(request)
+              OUTPUT "Request approved successfully!"
+              SendNotificationToEmployee(request.Employee, 
+                  "Your vacation request has been approved.")
+          
+          ELSE IF decision = "Deny" THEN
+              PROMPT "Enter reason for denial"
+              INPUT denialReason
+              DenyRequest(request, denialReason)
+              OUTPUT "Request denied and reason saved."
+              SendNotificationToEmployee(request.Employee, 
+                  "Your vacation request has been denied. Reason: " + denialReason)
+          END IF
+      END FOR
+  ELSE
+      OUTPUT "Access denied. Please log in to VTS."
+  END IF
+End
+```
+
+
 ذ
 
 
