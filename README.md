@@ -100,7 +100,7 @@ approved or rejected.
 ---
 
 ## Pseudocode 
-- //Employee Request 
+- Employee Request 
 
 ```pseudocode
 Start
@@ -126,7 +126,8 @@ Start
       END IF
   END IF
 End
-
+```
+ذ
 
 
 ---
