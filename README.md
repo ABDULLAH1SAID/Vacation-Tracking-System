@@ -102,6 +102,7 @@ approved or rejected.
 ## Pseudocode 
 - //Employee Request 
 
+```pseudocode
 Start
   Employee ← Connect("VTSLINK")
   systemVTS ← UseEmployeeCredentials(Employee)
@@ -111,7 +112,6 @@ Start
   IF Employee.CreatesRequest THEN
       categories ← GetCategoriesWithPositiveBalance(Employee)
       Display(categories)
-
       PROMPT "Select date(s) and time for which to request vacation"
       INPUT vacationDates, vacationTime
 
@@ -126,6 +126,8 @@ Start
       END IF
   END IF
 End
+
+
 
 ---
 
