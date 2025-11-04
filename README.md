@@ -93,9 +93,39 @@ approved or rejected.
 
 
 
-## 🔄 **Sequence Diagram: Manager**
+## 🔄 **Sequence Diagram: Manager
 
 ![Sequence Diagram - Manager](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/managerSequence.drawio.png?raw=true)
+
+---
+
+## Pseudocode 
+- //Employee Request 
+
+Start
+  Employee ← Connect("VTSLINK")
+  systemVTS ← UseEmployeeCredentials(Employee)
+
+  VTS.DisplayVacationRequestsAndBalances(Employee)
+
+  IF Employee.CreatesRequest THEN
+      categories ← GetCategoriesWithPositiveBalance(Employee)
+      Display(categories)
+
+      PROMPT "Select date(s) and time for which to request vacation"
+      INPUT vacationDates, vacationTime
+
+      isValid ← ValidateVacationInput(vacationDates, vacationTime)
+
+      IF isValid THEN
+          SaveVacationRequest(Employee, vacationDates, vacationTime)
+          OUTPUT "Vacation request submitted successfully!"
+          EmailSendTo("Manager")
+      ELSE
+          Display("An error occurred: " + Message.Error)
+      END IF
+  END IF
+End
 
 ---
 
