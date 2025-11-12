@@ -162,7 +162,7 @@ End
 ```
 ---
 
-## 📘 **Alternate flow: Withdraw Request **
+## 📘 **Alternate flow: Withdraw Request**
 
 1. The employee navigates to the VTS home page through the intranet portal application, which identifies and authenticates the   employee with the privileges necessary for using the VTS.
 2. The VTS home page contains a summary of vacation time requests, outstanding balances per category of time, and the current status of all active vacation time requests for the previous 6 months and up to 18 months in the future.
@@ -179,7 +179,7 @@ End
 
 
 
-## 🔄 **Sequence Diagram: Employee
+## 🔄 **Sequence Diagram**
 
 ![Sequence Diagram - Withdraw Request](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/sequence_Digram_WithDraw.drawio.png?raw=true)
 
