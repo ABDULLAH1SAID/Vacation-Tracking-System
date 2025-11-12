@@ -178,14 +178,62 @@ End
 ![Flowchart - Withdraw Request](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/flowchart_Withdrow_Request.drawio.png?raw=true)
 
 
-
 ## 🔄 **Sequence Diagram**
 
 ![Sequence Diagram - Withdraw Request](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/sequence_Digram_WithDraw.drawio.png?raw=true)
 
- 
+
+---
 
 
+## 📘 **Alternate flow:  Cancel Approved Request**
+
+1. The employee navigates to the VTS home page through the intranet portal application, which identifies and authenticates the employee with the privileges necessary for using the VTS.
+2. The VTS home page contains a summary of vacation time requests, outstanding balance per category of time, and the current status of all active vacation time requests for the previous 6 months and up to 18 months in the future.
+3. The employee selects a vacation time request to cancel, one that is in the future (or recent past) and has been approved.
+ 4. If the request is in the future, the employee is prompted to confirm the cancellation. If the request is in the recent past, the employee is 
+prompted to confirm the cancellation and provide a short explanation. If the employee approves the cancellation and provides the required information, an e-mail notification is sent to the manager, and the state of the request is changed to canceled. The time allowances used to make the request are returned to the employee. The employee can also abort the cancellation, effecting no changes to the current requests.
+5. The employee is returned to the main VTS home page. The summaries are updated to reflect any changes made to the employee’s outstanding vacation time requests
+
+
+---
+## 📊 **Flowchart**
+
+![Flowchart - Withdraw Request](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/flowchart_Cancel_Request.drawio.png?raw=true)
+
+
+## 🔄 **Sequence Diagram**
+
+![Sequence Diagram - Withdraw Request](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/cancel_approved_Request_sequenceDigram.drawio.png?raw=true)
+
+
+---
+
+
+## 📘 **Alternate flow:  Edit Pending Request**
+
+1. The employee navigates to the VTS home page through the intranet portal application, which identifies and authenticates the employee with the privileges necessary for using the VTS.
+2. The VTS home page contains a summary of vacation time requests, outstanding balances per category of time, and the current status of all active vacation time requests for the previous 6 months and up to 18 months in the future.
+3. The employee selects a request to edit, one that is pending approval.
+4. The VTS displays an editable view of the request. The employee is allowed to change the title, comments, or dates. The employee can also choose to delete or withdraw this request.
+5. The employee changes request information and submits the changes to the system.
+6. If the employee withdraws the request, the VTS prompts for confirmation before withdrawing the request. If changes are made only to the information, the changes are accepted, and the screen returns to the main VTS home page. If there are errors or problems with the information changes, the VTS redisplays the editing page andhighlights and explains all problems.
+
+---
+## 📊 **Flowchart**
+
+![Flowchart - Withdraw Request](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/flowchart_update_pending_RequestDiagram.drawio.png?raw=true)
+
+
+## 🔄 **Sequence Diagram**
+
+![Sequence Diagram - Withdraw Request](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/Sequence_Digram_Edit_Pending_Request.drawio.png?raw=true)
+
+
+---
+
+## 📊 **State Machine**
+![State Machine](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/State%20Machine.png?raw=true)
 
 
 
