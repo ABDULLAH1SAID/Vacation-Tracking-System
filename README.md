@@ -175,13 +175,13 @@ End
 ---
 ## 📊 **Flowchart**
 
-![Flowchart - Withdraw Request](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/FlowchartDiagram.jpg?raw=true)
+![Flowchart - Withdraw Request](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/flowchart_Withdrow_Request.drawio.png?raw=true)
 
 
 
 ## 🔄 **Sequence Diagram: Employee
 
-![Sequence Diagram - Withdraw Request](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/SequenceDigram.png?raw=true)
+![Sequence Diagram - Withdraw Request](https://github.com/ABDULLAH1SAID/Vacation-Tracking-System/blob/main/images/sequence_Digram_WithDraw.drawio.png?raw=true)
 
  
 
